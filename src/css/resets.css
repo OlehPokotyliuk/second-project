@@ -1,0 +1,97 @@
+/***
+    The new CSS reset - version 1.7.3 (last updated 7.8.2022)
+    GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+ */
+/* line 10, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+/* line 16, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+/* line 23, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+a, button {
+  cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+/* line 28, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+ol, ul, menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+/* line 33, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+img {
+  max-width: 100%;
+}
+
+/* removes spacing between cells in tables */
+/* line 38, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
+/* line 43, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+input, textarea {
+  -webkit-user-select: auto;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+/* line 48, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+textarea {
+  white-space: revert;
+}
+
+/* minimum style to allow to style meter element */
+/* line 53, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+
+/* reset default text opacity of input placeholder */
+/* line 59, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+::placeholder {
+  color: unset;
+}
+
+/* fix the feature of 'hidden' attribute.
+   display:revert; revert to element instead of attribute */
+/* line 65, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+:where([hidden]) {
+  display: none;
+}
+
+/* revert for bug in Chromium browsers
+   - fix for the content editable attribute will work properly.
+   - webkit-user-select: auto; added for Safari in case of using user-select:none on wrapper element*/
+/* line 72, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+:where([contenteditable]:not([contenteditable="false"])) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+  -webkit-user-select: auto;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+/* line 81, ../OpenServer/domains/Project-2/src/sass/resets.scss */
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+
+/*# sourceMappingURL=resets.css.map */

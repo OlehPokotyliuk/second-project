@@ -1,0 +1,1199 @@
+/* line 5, ../OpenServer/domains/Project-2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, ../OpenServer/domains/Project-2/src/sass/style.sass */
+html {
+  font-family: Montserrat;
+}
+
+/* line 11, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 16, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 778px;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+
+/* line 22, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.main-section__content-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/* line 27, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+  padding-top: 16px;
+}
+
+/* line 35, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.main-section__logo {
+  width: 96px;
+  height: 49px;
+}
+
+/* line 39, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 169px;
+  right: 14px;
+}
+
+/* line 44, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 50, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 53, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 56px;
+  font-size: 18px;
+}
+
+/* line 56, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 59, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 65, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 67, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 71, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.left-wrapper__rectangle-yellow {
+  position: absolute;
+  top: 160px;
+  left: -80px;
+  width: 599.92px;
+  height: 174.14px;
+  background: #DED95C;
+  border-radius: 87px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-60.16deg);
+  z-index: 4;
+}
+
+/* line 83, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.left-wrapper__rectangle-violet {
+  position: absolute;
+  top: 190px;
+  left: -35px;
+  width: 599.92px;
+  height: 174.14px;
+  background: #9D4FCC;
+  border-radius: 87px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-46.08deg);
+  z-index: 3;
+}
+
+/* line 95, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.left-wrapper__rectangle-red {
+  position: absolute;
+  top: 240px;
+  left: 45px;
+  width: 599.92px;
+  height: 174.14px;
+  background: #EA7979;
+  border-radius: 87px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-22.85deg);
+  z-index: 2;
+}
+
+/* line 107, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.right-wrapper {
+  width: 350px;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+
+/* line 113, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 117, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.right-wrapper__text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* line 124, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 127, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.icons {
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
+/* line 131, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 100px;
+  margin-right: 35px;
+}
+
+/* line 141, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 144, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.icons__item i {
+  font-size: 40px;
+}
+
+/* line 147, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+  margin: 0;
+}
+
+/* line 152, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.title__hr {
+  width: 55px;
+  margin: 0;
+  height: 1px;
+  background: #000;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+/* line 160, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 163, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.buttons__main-btn {
+  background-color: #DED95C;
+  border: 1px solid #000;
+  border-radius: 87px;
+  margin-right: 52px;
+  width: 191px;
+  height: 71.42px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  font-size: 16px;
+}
+
+/* line 175, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 179, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 182, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.elipse {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(139.27deg, #DED95C 15.5%, rgba(157, 79, 204, 0.48) 54.65%, #EA7979 84.57%), #D9D9D9;
+  opacity: 0.3;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 192, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 196, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.elipse__subtract {
+  width: 113px;
+  height: 113px;
+  background: #f0f0f0;
+  border-radius: 150px;
+}
+
+/* line 202, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 206, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section {
+  min-height: 700px;
+  overflow: hidden;
+}
+
+/* line 210, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__container {
+  padding-top: 32px;
+  position: relative;
+}
+
+/* line 214, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 40px;
+}
+
+/* line 217, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__cards-box {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+/* line 222, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__cards-item {
+  margin-left: 17.1px;
+}
+
+/* line 225, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 228, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 235, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 238, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 244, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 400px;
+  left: -50px;
+  z-index: -1;
+}
+
+/* line 250, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background: #D9D9D9;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 259, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.cards-item__img {
+  height: 344px;
+}
+
+/* line 262, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.cards-item__text {
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 135px;
+  right: -50px;
+}
+
+/* line 271, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.cards-item_orange {
+  background: #9D4FCC;
+}
+
+/* line 274, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.cards-item_blue {
+  background: #EA7979;
+}
+
+/* line 277, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 281, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 285, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 288, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+}
+
+/* line 291, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.third-section {
+  min-height: 640px;
+  background: #F0F0F0;
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 298, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 167px;
+  justify-content: space-between;
+  padding-top: 46px;
+}
+
+/* line 306, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 309, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 312, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.third-section__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* line 316, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  z-index: -1;
+}
+
+/* line 322, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 210px;
+  left: 10px;
+  z-index: -1;
+}
+
+/* line 328, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -80px;
+}
+
+/* line 333, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.title__hr_top {
+  bottom: 75px;
+}
+
+/* line 336, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.footer {
+  position: relative;
+  height: 272px;
+  overflow: hidden;
+}
+
+/* line 340, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 346, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
+/* line 349, ../OpenServer/domains/Project-2/src/sass/style.sass */
+.footer img {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  bottom: 0px;
+}
+
+@media (max-width: 1199px) {
+  /* line 357, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 360, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 750px;
+  }
+  /* line 363, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 614px;
+  }
+  /* line 368, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 765px;
+  }
+  /* line 371, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-yellow {
+    width: 579px;
+    height: 156px;
+  }
+  /* line 374, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-violet {
+    width: 579px;
+    height: 156px;
+  }
+  /* line 377, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-red {
+    width: 579px;
+    height: 156px;
+  }
+  /* line 381, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    right: -80px;
+  }
+  /* line 385, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
+  /* line 388, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: inline-flex;
+    justify-content: center;
+  }
+  /* line 392, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+  /* line 397, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 30px;
+  }
+  /* line 400, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 275px;
+  }
+  /* line 403, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item-img {
+    margin-right: 40px;
+  }
+  /* line 406, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+    min-width: 444px;
+  }
+  /* line 410, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer {
+    height: 272px;
+  }
+  /* line 412, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer img {
+    top: 0px;
+    width: 450px;
+  }
+  /* line 416, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer__title {
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 421, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 424, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 580px;
+  }
+  /* line 427, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 614px;
+  }
+  /* line 432, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 580px;
+  }
+  /* line 434, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-yellow {
+    width: 455px;
+    height: 110px;
+    top: 130px;
+  }
+  /* line 438, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-violet {
+    width: 455px;
+    height: 110px;
+    top: 150px;
+  }
+  /* line 442, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-red {
+    width: 425px;
+    height: 110px;
+    top: 194px;
+  }
+  /* line 447, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    right: -5px;
+    width: 250px;
+  }
+  /* line 451, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__title {
+    font-size: 40px;
+  }
+  /* line 454, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+  }
+  /* line 456, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .buttons {
+    width: 244px;
+  }
+  /* line 458, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  /* line 462, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .buttons-text {
+    font-size: 14px;
+  }
+  /* line 466, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons i {
+    font-size: 30px;
+  }
+  /* line 469, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons__item {
+    width: 40px;
+    height: 40px;
+  }
+  /* line 474, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    width: 165px;
+    height: 50px;
+  }
+  /* line 479, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 470px;
+  }
+  /* line 482, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: inline-flex;
+    justify-content: center;
+  }
+  /* line 486, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__title {
+    font-size: 40px;
+  }
+  /* line 489, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 220px;
+  }
+  /* line 492, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item {
+    width: 220px;
+    height: 220px;
+    margin-right: 20px;
+  }
+  /* line 497, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 24px;
+    top: 90px;
+    left: 20px;
+  }
+  /* line 502, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 200px;
+  }
+  /* line 505, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-box {
+    justify-content: space-around;
+  }
+  /* line 508, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  /* line 513, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 12px;
+  }
+  /* line 516, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 24px;
+  }
+  /* line 519, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 470px;
+  }
+  /* line 522, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 350px;
+  }
+  /* line 525, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__right-title {
+    font-size: 42px;
+  }
+  /* line 528, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__text {
+    font-size: 14px;
+  }
+  /* line 531, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__left-title {
+    font-size: 42px;
+  }
+  /* line 534, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__first-elipse {
+    width: 220px;
+    height: 220px;
+    top: 120px;
+  }
+  /* line 539, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__figure {
+    width: 180px;
+    height: 180px;
+  }
+  /* line 544, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+    min-width: 444px;
+  }
+  /* line 549, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer {
+    height: 272px;
+  }
+  /* line 551, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer img {
+    top: 0px;
+    width: 450px;
+  }
+  /* line 555, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer__title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 560, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 563, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: #DED95C;
+    z-index: 10;
+    transition: 1s all;
+  }
+  /* line 572, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 577, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 581, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 30;
+  }
+  /* line 589, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: #000;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 597, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 601, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 604, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 607, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 610, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 613, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
+  }
+  /* line 617, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 380px;
+  }
+  /* line 620, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    right: -13px;
+  }
+  /* line 626, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 614px;
+  }
+  /* line 631, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 340px;
+  }
+  /* line 634, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-yellow {
+    width: 326px;
+    height: 87px;
+    top: 90px;
+  }
+  /* line 638, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-violet {
+    width: 300px;
+    height: 88px;
+    top: 100px;
+  }
+  /* line 642, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-red {
+    width: 241px;
+    height: 100px;
+    top: 100px;
+  }
+  /* line 647, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    right: -5px;
+    width: 200px;
+    top: 50px;
+  }
+  /* line 652, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__title {
+    font-size: 24px;
+  }
+  /* line 655, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+  }
+  /* line 659, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__icon-btn p {
+    font-size: 10px;
+  }
+  /* line 663, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__icon-btn img {
+    width: 40px;
+    height: 40px;
+  }
+  /* line 669, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .buttons button {
+    width: 100px;
+    height: 40px;
+  }
+  /* line 673, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  /* line 680, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons i {
+    font-size: 24px;
+  }
+  /* line 683, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons__item {
+    width: 32px;
+    height: 32px;
+  }
+  /* line 689, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 370px;
+  }
+  /* line 692, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: inline-flex;
+    justify-content: center;
+  }
+  /* line 696, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__title {
+    font-size: 40px;
+  }
+  /* line 699, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 220px;
+  }
+  /* line 702, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item {
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+  }
+  /* line 707, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 18px;
+    top: 60px;
+    left: -15px;
+  }
+  /* line 712, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 150px;
+  }
+  /* line 715, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-box {
+    justify-content: space-around;
+  }
+  /* line 718, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item {
+    width: 40px;
+    height: 40px;
+  }
+  /* line 722, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item img {
+    margin-right: 10px;
+  }
+  /* line 725, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 10px;
+  }
+  /* line 728, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 16px;
+  }
+  /* line 731, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 470px;
+  }
+  /* line 734, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 280px;
+  }
+  /* line 737, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__right-title {
+    font-size: 24px;
+  }
+  /* line 740, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__text {
+    font-size: 14px;
+  }
+  /* line 743, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__left-title {
+    font-size: 24px;
+  }
+  /* line 746, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__first-elipse {
+    width: 154px;
+    height: 154px;
+    top: 120px;
+  }
+  /* line 751, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 124px;
+    height: 124px;
+  }
+  /* line 755, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .elipse__figure {
+    width: 180px;
+    height: 180px;
+  }
+  /* line 760, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+    min-width: 444px;
+  }
+  /* line 765, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer {
+    height: 210px;
+  }
+  /* line 768, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer img {
+    top: 0px;
+    width: 340px;
+  }
+  /* line 772, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 777, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 780, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section {
+    min-height: 380px;
+  }
+  /* line 783, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section__first-elipse {
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    right: -13px;
+  }
+  /* line 789, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 614px;
+  }
+  /* line 794, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper img {
+    width: 250px;
+  }
+  /* line 797, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-yellow {
+    width: 177px;
+    height: 58px;
+    top: 46px;
+    left: -13px;
+  }
+  /* line 803, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-violet {
+    width: 153px;
+    height: 62px;
+    top: 57px;
+    left: 20px;
+  }
+  /* line 809, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .left-wrapper__rectangle-red {
+    width: 168px;
+    height: 59px;
+    top: 82px;
+  }
+  /* line 814, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper {
+    right: -5px;
+    width: 218px;
+    top: 50px;
+  }
+  /* line 819, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__title {
+    font-size: 24px;
+  }
+  /* line 822, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+  }
+  /* line 826, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__icon-btn p {
+    font-size: 10px;
+  }
+  /* line 830, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .right-wrapper__icon-btn img {
+    width: 40px;
+    height: 40px;
+  }
+  /* line 836, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .buttons button {
+    width: 100px;
+    height: 40px;
+  }
+  /* line 840, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  /* line 847, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons i {
+    font-size: 24px;
+  }
+  /* line 850, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons__item {
+    width: 32px;
+    height: 32px;
+  }
+  /* line 856, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section {
+    min-height: 370px;
+  }
+  /* line 859, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__cards-box {
+    display: inline-flex;
+    justify-content: center;
+  }
+  /* line 863, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__title {
+    font-size: 40px;
+  }
+  /* line 866, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 220px;
+  }
+  /* line 869, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item {
+    width: 135px;
+    height: 135px;
+    margin-right: 20px;
+  }
+  /* line 874, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 14px;
+    top: 53px;
+    left: -39px;
+  }
+  /* line 879, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .cards-item__img {
+    height: 128px;
+  }
+  /* line 882, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-box {
+    justify-content: space-evenly;
+  }
+  /* line 885, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item {
+    width: 30px;
+    height: 30px;
+  }
+  /* line 889, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item img {
+    margin-right: 10px;
+  }
+  /* line 892, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 10px;
+  }
+  /* line 895, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 16px;
+  }
+  /* line 898, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section {
+    min-height: 470px;
+  }
+  /* line 901, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 280px;
+  }
+  /* line 904, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__right-title {
+    font-size: 24px;
+  }
+  /* line 907, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__text {
+    font-size: 14px;
+  }
+  /* line 910, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__left-title {
+    font-size: 24px;
+  }
+  /* line 913, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__first-elipse {
+    width: 154px;
+    height: 154px;
+    top: 120px;
+  }
+  /* line 918, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 124px;
+    height: 124px;
+  }
+  /* line 922, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .elipse__figure {
+    width: 180px;
+    height: 180px;
+  }
+  /* line 927, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+    min-width: 444px;
+  }
+  /* line 932, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer {
+    height: 210px;
+  }
+  /* line 935, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer img {
+    top: 0px;
+    width: 340px;
+  }
+  /* line 939, ../OpenServer/domains/Project-2/src/sass/style.sass */
+  .footer__title {
+    font-size: 32px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
